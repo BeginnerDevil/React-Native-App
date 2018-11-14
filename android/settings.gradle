@@ -1,0 +1,3 @@
+rootProject.name = 'Devil'
+
+include ':app'
