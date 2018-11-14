@@ -6,7 +6,7 @@ export default class List extends Component {
 
 
         return (
-            <View style={{ flex: 1, marginTop: 150 }}>
+            <View style={{ flex: 1,marginTop:20 }}>
                 <FlatList
                     style={styles.bigbox}
                     data={listArr}
@@ -61,7 +61,7 @@ const listArr = [{
 
 const styles = {
     bigbox: {
-        flex: 1,
+        marginTop:0,
     },
     title: {
         color: '#333',
